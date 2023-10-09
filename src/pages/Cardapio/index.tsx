@@ -1,5 +1,5 @@
 import styles from './Cardapio.module.scss';
-import logo from 'assets/logo.svg';
+import logo from 'assets/logo.png';
 import Buscador from './Buscador/index';
 import { useState } from 'react';
 import Filtros from './Filtros';
@@ -10,12 +10,9 @@ export default function Cardapio() {
     <main>
         <br></br>
         <nav className={styles.menu}>
-            <img src= {logo} alt="logo" />
+            <img className={styles.logo} src= {logo} alt="logo" />
         </nav>
         <header className={styles.header}> 
-            <div className={styles.header__text}>
-            A casa do código é a massa
-            </div>
         </header>
         <section className={styles.cardapio}>
             <h3 className={styles.cardapio__titulo}>Cardapio</h3>

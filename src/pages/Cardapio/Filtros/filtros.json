@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "label": "Massas"
+        "label": "Lanches"
     },
     {
         "id": 2,
-        "label": "Carnes"
+        "label": "Porções"
     },
     {
         "id": 3,
@@ -13,7 +13,7 @@
     },
     {
         "id": 4,
-        "label": "Veganos"
+        "label": "Bebidas"
     }
     
 ]
